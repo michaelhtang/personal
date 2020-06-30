@@ -28,11 +28,18 @@ h3 {
 
 a {
   color: #27496d;
+  font-family: 'Poiret One', cursive;
   text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #bbe1fa;
 }
 
 p {
   color: #1b262c;
+  line-height: 2;
 }
 
 hr {
@@ -77,7 +84,7 @@ hr {
   float: right;
 }
 
-.contact-message {
+.contact-me {
   width: 40%;
   margin: 40px auto 60px;
 }
@@ -95,6 +102,7 @@ hr {
   margin: 50px;
   font-size: 14px;
   font-weight: 100;
+  font-family: 'Poiret One', cursive;
   padding: 10px;
   box-shadow: 1px 1px 10px 0px #000000;
   -webkit-box-shadow: 1px 1px 10px 0px #000000;
@@ -138,7 +146,13 @@ hr {
 .middle-container {}
 
 .bottom-container {
-  padding: 50px;
+  padding: 50px 0 20px;
   line-height: 2;
   background-color: #bbe1fa;
+}
+
+.copyright {
+  color: #bbe1fa;
+  font-size: 0.75em;
+  padding: 20px 0;
 }
