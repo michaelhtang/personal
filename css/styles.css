@@ -61,6 +61,10 @@ hr {
   margin: 100px auto 100px auto;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
 .skill1 {
   width: 25%;
   float: left;
